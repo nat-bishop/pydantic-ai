@@ -116,12 +116,12 @@ dev = [
     # Needed for PyCharm users
     "pip>=26.0",
     "genai-prices>=0.0.28",
-    "brotli>=1.2.0",
+    "brotli>=1.2.1",
 ]
 lint = ["mypy>=1.11.2", "pyright>=1.1.408", "ruff>=0.14.14"]
 docs = [
     "pydantic-ai[a2a]",
-    "black>=24.10.0",
+    "black>=26.10.1",
     "mkdocs>=1.6.1",
     "mkdocs-glightbox>=0.4.0",
     "mkdocs-llmstxt>=0.2.0",
